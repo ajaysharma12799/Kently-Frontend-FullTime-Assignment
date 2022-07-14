@@ -1,16 +1,11 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.crm-section {
+    background: linear-gradient(180deg, rgba(235, 246, 255, 0) -12.61%, #EBF6FF 50.78%, rgba(235, 246, 255, 0) 114.7%);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+.crm-card {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
 }
